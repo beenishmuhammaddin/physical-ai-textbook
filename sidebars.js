@@ -1,17 +1,12 @@
-// @ts-check
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const sidebars = {
+module.exports = {
   tutorialSidebar: [
-    'introduction',
-    'physical-ai',
-    'humanoid-robotics',
-    'sensors-actuators',
-    'control-systems',
-    'ai-techniques',
-    'applications',
-    'conclusion',
+    'chapter1-introduction',
+    'chapter2-physical-ai',
+    'chapter3-humanoid-robotics',
+    'chapter4-sensors-actuators',
+    'chapter5-control-systems',
+    'chapter6-ai-techniques',
+    'chapter7-applications',
+    'chapter8-conclusion',
   ],
 };
-
-export default sidebars;
