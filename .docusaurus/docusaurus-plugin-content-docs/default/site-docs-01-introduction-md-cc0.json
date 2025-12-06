@@ -1,0 +1,21 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "Physical AI and Humanoid Robotics are two revolutionary fields in modern technology, integrating artificial intelligence with mechanical systems to create intelligent, autonomous machines. This textbook provides a comprehensive overview of these topics, exploring foundational concepts, technologies, applications, and future trends.",
+  "source": "@site/docs/01-introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}

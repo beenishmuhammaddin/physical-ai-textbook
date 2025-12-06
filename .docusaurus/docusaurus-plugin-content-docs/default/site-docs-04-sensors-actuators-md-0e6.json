@@ -1,0 +1,25 @@
+{
+  "id": "sensors-actuators",
+  "title": "Sensors & Actuators",
+  "description": "Sensors and actuators are fundamental components of Physical AI and Humanoid Robotics.",
+  "source": "@site/docs/04-sensors-actuators.md",
+  "sourceDirName": ".",
+  "slug": "/sensors-actuators",
+  "permalink": "/docs/sensors-actuators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04-sensors-actuators.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Control Systems",
+    "permalink": "/docs/control-systems"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "Physical AI is the study of intelligent systems that interact with the real world through sensors, actuators, and control mechanisms. Unlike purely software AI, physical AI focuses on tangible, robotic systems that can sense, move, and make decisions.",
+  "source": "@site/docs/introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "introduction",
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Physical AI",
+    "permalink": "/docs/physical-ai"
+  }
+}

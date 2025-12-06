@@ -1,0 +1,27 @@
+{
+  "id": "sensors-actuators",
+  "title": "Sensors & Actuators",
+  "description": "Sensors",
+  "source": "@site/docs/sensors-actuators.md",
+  "sourceDirName": ".",
+  "slug": "/sensors-actuators",
+  "permalink": "/docs/sensors-actuators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/sensors-actuators.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "sensors-actuators",
+    "title": "Sensors & Actuators"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Robotics",
+    "permalink": "/docs/humanoid-robotics"
+  },
+  "next": {
+    "title": "Control Systems",
+    "permalink": "/docs/control-systems"
+  }
+}

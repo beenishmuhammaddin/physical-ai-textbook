@@ -1,0 +1,25 @@
+{
+  "id": "control-systems",
+  "title": "Control Systems",
+  "description": "Control systems govern the behavior of robots, ensuring stability, precision, and reliability.",
+  "source": "@site/docs/05-control-systems.md",
+  "sourceDirName": ".",
+  "slug": "/control-systems",
+  "permalink": "/docs/control-systems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-control-systems.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensors & Actuators",
+    "permalink": "/docs/sensors-actuators"
+  },
+  "next": {
+    "title": "AI Techniques",
+    "permalink": "/docs/ai-techniques"
+  }
+}

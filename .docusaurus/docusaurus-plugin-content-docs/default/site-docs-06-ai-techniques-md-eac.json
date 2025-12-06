@@ -1,0 +1,25 @@
+{
+  "id": "ai-techniques",
+  "title": "AI Techniques",
+  "description": "Artificial intelligence techniques applied in Physical AI and Humanoid Robotics include:",
+  "source": "@site/docs/06-ai-techniques.md",
+  "sourceDirName": ".",
+  "slug": "/ai-techniques",
+  "permalink": "/docs/ai-techniques",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/06-ai-techniques.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Control Systems",
+    "permalink": "/docs/control-systems"
+  },
+  "next": {
+    "title": "Applications",
+    "permalink": "/docs/applications"
+  }
+}

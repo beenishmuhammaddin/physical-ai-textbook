@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics",
+  "title": "Humanoid Robotics",
+  "description": "Humanoid robots are designed to resemble and behave like humans. They can walk, talk, and manipulate objects using AI.",
+  "source": "@site/docs/humanoid-robotics.md",
+  "sourceDirName": ".",
+  "slug": "/humanoid-robotics",
+  "permalink": "/docs/humanoid-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/humanoid-robotics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "humanoid-robotics",
+    "title": "Humanoid Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI",
+    "permalink": "/docs/physical-ai"
+  },
+  "next": {
+    "title": "Sensors & Actuators",
+    "permalink": "/docs/sensors-actuators"
+  }
+}

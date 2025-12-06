@@ -1,0 +1,21 @@
+{
+  "id": "conclusion",
+  "title": "Conclusion",
+  "description": "Physical AI and Humanoid Robotics represent the convergence of artificial intelligence, mechanics, and human-inspired design. Understanding these fields requires knowledge of sensors, actuators, control systems, and AI algorithms.",
+  "source": "@site/docs/08-conclusion.md",
+  "sourceDirName": ".",
+  "slug": "/conclusion",
+  "permalink": "/docs/conclusion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/08-conclusion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Applications",
+    "permalink": "/docs/applications"
+  }
+}
