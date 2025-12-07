@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -114,66 +79,61 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '312'),
+    component: ComponentCreator('/docs', '08e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '370'),
+        component: ComponentCreator('/docs', '76a'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8a0'),
+            component: ComponentCreator('/docs', 'f3d'),
             routes: [
               {
-                path: '/docs/ai-techniques',
-                component: ComponentCreator('/docs/ai-techniques', '048'),
+                path: '/docs/chapter1-introduction',
+                component: ComponentCreator('/docs/chapter1-introduction', '3f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/applications',
-                component: ComponentCreator('/docs/applications', 'c1d'),
+                path: '/docs/chapter2-physical-ai',
+                component: ComponentCreator('/docs/chapter2-physical-ai', 'cf3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/conclusion',
-                component: ComponentCreator('/docs/conclusion', '95e'),
+                path: '/docs/chapter3-humanoid-robotics',
+                component: ComponentCreator('/docs/chapter3-humanoid-robotics', '61a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/control-systems',
-                component: ComponentCreator('/docs/control-systems', '639'),
+                path: '/docs/chapter4-sensors-actuators',
+                component: ComponentCreator('/docs/chapter4-sensors-actuators', 'e44'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/humanoid-robotics',
-                component: ComponentCreator('/docs/humanoid-robotics', 'ea8'),
+                path: '/docs/chapter5-control-systems',
+                component: ComponentCreator('/docs/chapter5-control-systems', '1b7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '853'),
-                exact: true
-              },
-              {
-                path: '/docs/introduction',
-                component: ComponentCreator('/docs/introduction', 'f7d'),
+                path: '/docs/chapter6-ai-techniques',
+                component: ComponentCreator('/docs/chapter6-ai-techniques', '48c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/physical-ai',
-                component: ComponentCreator('/docs/physical-ai', 'a02'),
+                path: '/docs/chapter7-applications',
+                component: ComponentCreator('/docs/chapter7-applications', 'b39'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/sensors-actuators',
-                component: ComponentCreator('/docs/sensors-actuators', '248'),
+                path: '/docs/chapter8-conclusion',
+                component: ComponentCreator('/docs/chapter8-conclusion', 'cab'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

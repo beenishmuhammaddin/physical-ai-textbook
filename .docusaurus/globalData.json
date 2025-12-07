@@ -8,50 +8,46 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "introduction",
+          "mainDocId": "chapter1-introduction",
           "docs": [
             {
-              "id": "ai-techniques",
-              "path": "/docs/ai-techniques",
+              "id": "chapter1-introduction",
+              "path": "/docs/chapter1-introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "applications",
-              "path": "/docs/applications",
+              "id": "chapter2-physical-ai",
+              "path": "/docs/chapter2-physical-ai",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "conclusion",
-              "path": "/docs/conclusion",
+              "id": "chapter3-humanoid-robotics",
+              "path": "/docs/chapter3-humanoid-robotics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "control-systems",
-              "path": "/docs/control-systems",
+              "id": "chapter4-sensors-actuators",
+              "path": "/docs/chapter4-sensors-actuators",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "humanoid-robotics",
-              "path": "/docs/humanoid-robotics",
+              "id": "chapter5-control-systems",
+              "path": "/docs/chapter5-control-systems",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro"
-            },
-            {
-              "id": "introduction",
-              "path": "/docs/introduction",
+              "id": "chapter6-ai-techniques",
+              "path": "/docs/chapter6-ai-techniques",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "physical-ai",
-              "path": "/docs/physical-ai",
+              "id": "chapter7-applications",
+              "path": "/docs/chapter7-applications",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "sensors-actuators",
-              "path": "/docs/sensors-actuators",
+              "id": "chapter8-conclusion",
+              "path": "/docs/chapter8-conclusion",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -91,8 +87,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/introduction",
-                "label": "introduction"
+                "path": "/docs/chapter1-introduction",
+                "label": "chapter1-introduction"
               }
             }
           }

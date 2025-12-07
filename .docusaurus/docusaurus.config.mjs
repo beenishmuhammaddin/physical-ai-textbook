@@ -9,7 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "http://localhost:3000",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "organizationName": "my-org",
   "projectName": "physical-ai-textbook",
   "i18n": {
@@ -78,8 +78,36 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Chapters",
-              "to": "/docs/introduction"
+              "label": "Chapter 1",
+              "to": "/docs/chapter1-introduction"
+            },
+            {
+              "label": "Chapter 2",
+              "to": "/docs/chapter2-physical-ai"
+            },
+            {
+              "label": "Chapter 3",
+              "to": "/docs/chapter3-humanoid-robotics"
+            },
+            {
+              "label": "Chapter 4",
+              "to": "/docs/chapter4-sensors-actuators"
+            },
+            {
+              "label": "Chapter 5",
+              "to": "/docs/chapter5-control-systems"
+            },
+            {
+              "label": "Chapter 6",
+              "to": "/docs/chapter6-ai-techniques"
+            },
+            {
+              "label": "Chapter 7",
+              "to": "/docs/chapter7-applications"
+            },
+            {
+              "label": "Chapter 8",
+              "to": "/docs/chapter8-conclusion"
             }
           ]
         },

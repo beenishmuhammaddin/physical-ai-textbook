@@ -1,0 +1,27 @@
+{
+  "id": "chapter6-ai-techniques",
+  "title": "AI Techniques",
+  "description": "Robots use AI to process data and make decisions. Key techniques include:",
+  "source": "@site/docs/chapter6-ai-techniques.md",
+  "sourceDirName": ".",
+  "slug": "/chapter6-ai-techniques",
+  "permalink": "/docs/chapter6-ai-techniques",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/chapter6-ai-techniques.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "chapter6-ai-techniques",
+    "title": "AI Techniques"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Control Systems",
+    "permalink": "/docs/chapter5-control-systems"
+  },
+  "next": {
+    "title": "Applications",
+    "permalink": "/docs/chapter7-applications"
+  }
+}

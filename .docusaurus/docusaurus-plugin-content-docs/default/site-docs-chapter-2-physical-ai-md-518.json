@@ -1,0 +1,27 @@
+{
+  "id": "chapter2-physical-ai",
+  "title": "Physical AI",
+  "description": "Physical AI combines artificial intelligence with robotics to create intelligent machines that can interact with the physical environment.",
+  "source": "@site/docs/chapter2-physical-ai.md",
+  "sourceDirName": ".",
+  "slug": "/chapter2-physical-ai",
+  "permalink": "/docs/chapter2-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/chapter2-physical-ai.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "chapter2-physical-ai",
+    "title": "Physical AI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/chapter1-introduction"
+  },
+  "next": {
+    "title": "Humanoid Robotics",
+    "permalink": "/docs/chapter3-humanoid-robotics"
+  }
+}
