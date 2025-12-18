@@ -13,6 +13,10 @@ const config = {
   projectName: 'physical-ai-textbook', // Repo name
   i18n: { defaultLocale: 'en', locales: ['en'] },
 
+  clientModules: [
+    require.resolve('./src/clientModules/chatWidget.js'),
+  ],
+
   presets: [
     [
       'classic',
