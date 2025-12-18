@@ -10,6 +10,11 @@ __pycache__/
 .Python
 *.so
 
+# Virtual environment
+venv/
+env/
+ENV/
+
 # Embeddings cache
 backend/embeddings_cache.json
 
