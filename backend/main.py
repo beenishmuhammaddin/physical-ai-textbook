@@ -1,15 +1,46 @@
 # backend/main.py
 import os
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 from dotenv import load_dotenv
 import requests
+from rag_system import RAGSystem
 
 # Load .env
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("GOOGLE_API_KEY")
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, specify your frontend domain
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Initialize RAG system
+rag_system = None
+
+class ChatRequest(BaseModel):
+    message: str
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize RAG system on startup"""
+    global rag_system
+    if API_KEY:
+        print("Initializing RAG system...")
+        rag_system = RAGSystem(API_KEY)
+        rag_system.load_documents()
+        rag_system.generate_embeddings()
+        print("RAG system ready!")
+    else:
+        print("Warning: API_KEY not found. RAG system not initialized.")
 
 @app.get("/")
 def root():
@@ -54,4 +85,28 @@ def generate(prompt: str = Query(..., description="The prompt to send to Gemini 
         return JSONResponse(
             status_code=200,
             content={"prompt": prompt, "response": f"API request failed: {str(e)}"}
+        )
+
+@app.post("/chat")
+async def chat(request: ChatRequest):
+    """
+    RAG-based chat endpoint that answers questions about the Physical AI textbook.
+    """
+    if not rag_system:
+        return JSONResponse(
+            status_code=503,
+            content={"error": "RAG system not initialized. Check API key configuration."}
+        )
+
+    try:
+        response = rag_system.chat(request.message)
+        return {
+            "message": request.message,
+            "answer": response['answer'],
+            "sources": response['sources']
+        }
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Error processing chat request: {str(e)}"}
         )

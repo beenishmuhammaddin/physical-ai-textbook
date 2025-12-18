@@ -1,0 +1,36 @@
+# Environment variables
+.env
+backend/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Embeddings cache
+backend/embeddings_cache.json
+
+# Node modules and cache
+node_modules/
+.cache/
+node_modules/.cache/
+
+# Docusaurus build
+.docusaurus/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+nul
+
+# Logs
+*.log
+npm-debug.log*
