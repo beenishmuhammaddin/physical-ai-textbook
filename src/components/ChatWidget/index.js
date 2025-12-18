@@ -9,7 +9,7 @@ export default function ChatWidget() {
   const messagesEndRef = useRef(null);
 
   const API_URL = process.env.NODE_ENV === 'production'
-    ? 'https://your-backend-url.com'  // Replace with your production URL
+    ? 'https://physical-ai-backend.onrender.com'  // Update this after deploying backend
     : 'http://localhost:8000';
 
   const scrollToBottom = () => {
