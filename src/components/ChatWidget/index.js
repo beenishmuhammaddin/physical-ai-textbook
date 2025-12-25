@@ -25,7 +25,7 @@ export default function ChatWidget() {
     if (isOpen && messages.length === 0) {
       setMessages([{
         type: 'bot',
-        text: 'Hi! I\'m your Physical AI textbook assistant. Ask me anything about the book content!',
+        text: '👋 Welcome! I\'m your Physical AI textbook assistant powered by AI. I can help you explore robotics, sensors, control systems, and more. What would you like to learn today?',
         timestamp: new Date()
       }]);
     }
@@ -95,16 +95,14 @@ export default function ChatWidget() {
           aria-label="Open chat"
         >
           <svg
-            width="24"
-            height="24"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+            <circle cx="12" cy="12" r="2" fill="currentColor" opacity="0.6" />
           </svg>
         </button>
       )}
@@ -116,14 +114,20 @@ export default function ChatWidget() {
           <div className={styles.chatHeader}>
             <div className={styles.chatHeaderTitle}>
               <svg
-                width="20"
-                height="20"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                <rect x="4" y="4" width="16" height="12" rx="2" fill="currentColor" opacity="0.8"/>
+                <circle cx="9" cy="9" r="1.5" fill="white"/>
+                <circle cx="15" cy="9" r="1.5" fill="white"/>
+                <path d="M8 13h8" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <rect x="7" y="16" width="2" height="4" rx="1" fill="currentColor" opacity="0.8"/>
+                <rect x="15" y="16" width="2" height="4" rx="1" fill="currentColor" opacity="0.8"/>
+                <circle cx="8" cy="20" r="1.5" fill="white" opacity="0.9"/>
+                <circle cx="16" cy="20" r="1.5" fill="white" opacity="0.9"/>
               </svg>
               <span>Physical AI Assistant</span>
             </div>
