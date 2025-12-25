@@ -1,4 +1,5 @@
 # backend/main.py
+# Version: 1.0.1 - Deployed Dec 25, 2025
 import os
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,7 +13,11 @@ from rag_system import RAGSystem
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
-app = FastAPI()
+app = FastAPI(
+    title="Physical AI Textbook RAG API",
+    description="RAG-based chatbot for Physical AI & Robotics textbook",
+    version="1.0.1"
+)
 
 # Add CORS middleware
 app.add_middleware(
